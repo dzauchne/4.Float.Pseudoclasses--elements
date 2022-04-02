@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 50%;
+    border-bottom: solid 1px brown;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+nav {
+    padding: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    vertical-align: top;
+}
+
+.logo {
+    max-width: 70px;
+    display: inline-block;
+    vertical-align: middle;
+    vertical-align: top;
+    padding-top: 20px;
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 39px;
+    height: 59px;
+}
+
+nav li {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding-left: 60px;
+}
+
+nav a {
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a:active {
+    color: brown;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(238, 227, 214);
+    background-image: url(../images/Grapes.png);
+    background-repeat: no-repeat;
+    background-position-x: 80%;
+}
+
+body .container {
+    max-width: 1100px;
+    margin: auto;
+}
+
+main {
+    width: 70%;
+    padding-bottom: 123px;
+}
+
+h1 {
+    padding-top: 158px;
+    padding-bottom: 33px;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family: Times;
+}
+
+h1:after {
+    content: url(./images/Vector-1.png);
+    display: block;
+    width: 165px;
+    height: 9px;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+span {
+    text-transform: capitalize;
+    display: block;
+    font-family: Times;
+}
+
+span:after {
+    content: url(./images/grain.png);
+    display: inline-block;
+    margin-left: 6px;
+    width: 45px;
+    height: 69px;
+    vertical-align: sub;
+}
+
+p {
+    line-height: 30px;
+    width: 70%;
+    padding-bottom: 77px;
+}
+
+.move-to {
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 15px;
+    border: solid 2px brown;
+    line-height: 64px;
+    color: black;
+}
+
+.move-to:after {
+    content: '>';
+    display: inline-block;
+    width: 59px;
+    height: 64px;
+    background-color: brown;
+    color: rgb(238, 227, 214);
+    line-height: 64px;
+    text-align: center;
+    margin-left: 11px;
+}
+
+div .mouse {
+    display: inline;
+    padding-top: 230px;
+    padding-left: 520px;
+    width: 33.47px;
+    height: 69.8px;
+    text-align: center;
+}
+
+img {
+    background-position: 90%;
+}
